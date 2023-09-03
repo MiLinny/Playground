@@ -1,0 +1,35 @@
+#skeleton {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#timer {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 15px 30px;
+    font-size: 50px;
+}
+
+.buttonsContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+
+.button {
+    border: 1px solid black;
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+
+.button:hover {
+    background-color: #ffb6c1;
+}
+
+.button:active {
+    background-color: #E75480;
+}
